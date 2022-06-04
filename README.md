@@ -10,9 +10,6 @@ I allowed it to receive live attacks (RDP Brute Force) from all around the world
 <br />
 <br />
 
-<p align="center">
-<img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
-</p>
 <h2>Languages Used</h2>
 
 - <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
@@ -24,13 +21,15 @@ I allowed it to receive live attacks (RDP Brute Force) from all around the world
 <h2>Attacks from only USA and Russia coming in; Custom logs being output with geodata</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/LhDCRz4.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img width="1135" alt="Powershell screenshot" src="https://user-images.githubusercontent.com/106617464/171990547-91162824-9097-470c-b8c3-34caba107ea1.png">
+
 </p>
 
 <h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
-
+<b>I used the free version of the geolocation API which has a daily request limit of 1000 requests. It seems that the attacks came from 5 main IP addresses and were from USA and Russia
+</b>
 <p align="center">
-<img src="https://i.imgur.com/krRFrK5.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img width="720" alt="World map attacks" src="https://user-images.githubusercontent.com/106617464/171990612-328ebd1f-c28a-405c-9415-3a070b5e9965.png">
 </p>
 
 
